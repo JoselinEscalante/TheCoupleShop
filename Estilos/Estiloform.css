@@ -1,0 +1,92 @@
+body{
+	font: 14px/21px "lucida sans", "lucida grande", "lucida sans unicode" sans-serif;
+}
+#Contenido1{
+	position:absolute;  
+    top: 50%;  
+    left: 50%;
+    height:20px;  
+    margin-top: -17em; 
+    margin-left: -27em;  
+}
+.contacto h2, .contacto label{
+	font-family: Georgia, Times, "Times New Roman", sans-serif;
+	text-align: center;
+}
+
+.contacto ul{
+	width: 650px;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 120px;
+}
+
+.contacto li{
+	padding: 12px;
+	border-bottom: 1px solid #e1e2e3;
+	position: relative;
+}
+
+.contacto li:first-child, .contacto li:last-child{
+	border-bottom: 11px solid #000066
+}
+
+.contacto h2{
+	margin: 0px;
+	display: inline;
+}
+
+.requeridos{
+	color: red;
+	margin: 5px 0 0 0 ;
+	display: inline;
+	float: right;
+}
+
+.contacto label{
+	width: 150px;
+	margin-top: 3px;
+	display: inline-block;
+	float: left;
+	padding: 3px;
+}
+
+.contacto input{
+	height: 20px;
+	width: 220px;
+	padding: 5px 8px;
+}
+
+.contacto textarea{
+	padding: 8px;
+	width: 300px;
+}
+
+.contacto button{
+	margin-left: 156px;
+	background: navy;
+	color: white;
+	border-radius: 5px;
+	height: 40px;
+	width: 150px;
+}
+
+.contacto input, .contacto textarea{
+	border: 1px solid #aaaaaa;
+	box-shadow: 0px 0px 3px #123456, 0px 10px 15px white; inset;
+	border-radius: 5px;
+}
+button{
+  color: white;
+}
+button:link {  
+  color: white;  
+  text-decoration: none;
+}   
+button:hover {
+  font-size:15px;
+  color: red;  
+  background-color: black;  
+  text-decoration: underline;
+}
